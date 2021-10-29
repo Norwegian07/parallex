@@ -71,6 +71,7 @@ li{
     color: white;
     font-size: 24px;
     padding: 25px;
+    margin-left: 45px;
 }
 p{
     color: white;
@@ -113,6 +114,9 @@ p.college{
     background-color: black;
     padding: 25px;
     text-align: right;
+    position: fixed;
+    width: 100%;
+    margin-top: -1.5%;
   }
 
   a.call,a.mail{
