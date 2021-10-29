@@ -1,80 +1,123 @@
 body,html{
-height: 100%;
-}
-nav{
-    margin: auto;
-    background:  url(https://dm2306files.storage.live.com/y4meKjvoGSYN0eE42FuX3jmWrgQChoYL7_2BK12YNmgLpFKzCt8uzlKHhF1XQjzSsNBd70mlJlc0zmHC1RzASKGWFh8A0nv11fo8wtoLoEUvX3i6meNPjk7yNupPSh74-UhiWHu8utHDIrWlRlDvUwApbc2fjj3RAectYH8rnw3HzE1S_FNA_BOsGItG21dadn-?width=1920&height=1233&cropmode=none) scroll;
-    position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-   width: 100%;
-}
-li{
-display: inline;
-color: white;
-font-size: 24px;
-padding: 15px;
-float: right;
-
-}
-/* 
- */
- .container1{
-     background-attachment: fixed;
- background: url(https://dm2306files.storage.live.com/y4m2DMBJuiMV2Yz22mN4SdhGnqoD0iIzDaNlolETfj8hivKn9pQ5iQj6ZGMxK3DT3H8fiGa2H3WEDCTSGzPLgxk8aQ-Jen7Y5DIAlifhm0N3rqCKlsHVePBrEPGqwbfHJAMx6DN0qpuh_G3h0s-HJ0CFk_twtsFpBZ43J3pe_Yt7w40Wkl1sEcv4-oS282Vyhun?width=1920&height=1020&cropmode=none);
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
- height: 100%;
- opacity: 0.65;
-}
-
-    /* 
-     */
-
-    .container2{
-        background-attachment: fixed;
-        background: url(https://dm2306files.storage.live.com/y4mhQ_HbB4T71jin5TdEx9h5QqfnK5exHD46Zuy-FxuL7H2QppVM5ZxrrNS3zgtZoB7DzeXUAeh0fHjtS2eOBHH7nXHE-kZ1ikVJTqStvprLA0vL_aszMkZ52n6VwS0CMWXFggXDKJy6O51BgIyj1DgolqB4GEORYNBW8Qp6vNMXqqamgAetmDa8XnC7-HSmQTU?width=1920&height=1280&cropmode=none);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100%;
-        opacity: 0.65;
-    }
-    .container3{
-        background-attachment: fixed;
-    background: url(https://dm2306files.storage.live.com/y4mrAfiHzp9EhLH8YirpCI2ann9d0c9n8oX6mBl9Bm2HE5Jlkvnj8CdlPiSI6tfjj10XuJPmAiihNezAq0AU5v5vEJXAumnPz3MViDuRjvn-25BHUa1mz3LhrDewE7IWoqWNwlArUBH-lA4EAouTiuFR4SYILq5F9Q2OIQmvZuyLHcxeExI5VqK_Fhk1uUMtzpE?width=2200&height=1426&cropmode=none);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    opacity: 0.65;
-}
-@media only screen and (max-device-width: 1366px) {
-    .container1,.container2,.container3 {
-      background-attachment: scroll;
-   }
-  }
-
-  p{
-     position: absolute;
-   margin-top: 25%;
-   margin-left: 25%;
-    text-align: center;
-    background-color: #111;
-      color: #fff;
-      padding: 55px;
-  }
-  .parallax {
-    /* The image used */
-    background-image: url("https://dm2306files.storage.live.com/y4mWJHnO7nH2lyD7L_ABT6n3NAMd8-vv6OUA5J_QRwwkflflJilm5_h0vNLNSS5Pe5v9gPFUh_6K8Rc9jFcMKBr8kjtsDi3Qsef6tHFGgGGl7tAN311i17SOsil8lukHKCveaYmynhIlTkPkm5IZtEyUvp-EBE-UDbiO9kc39gwNKp27jV4wsBHbpXKckyXccXu?width=1920&height=709&cropmode=none");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
+    max-height: 800px;
+    min-height: 700px;
+    width: 100%;
+    background-color: black;
+    /* background: url(https://dm2306files.storage.live.com/y4mVo9IfmhOp6ooQ3mJfxHomD-z6VRdlbTyiTQWeOjgSt5p6PtcCbvpUfhSYJF3qipdjjk-Ar4D-IqyExdYWtqaMXfZoN7XY7u7F_lBxWOycMs_ukyG8T8hi5F7BcIAzwpCEHM-iD7LO4_rqMegDu-gJ-gmmtD0vpho5nEwUWeWawxHRfXZvkFhuCIlk_-P0Lsm?width=1920&height=852&cropmode=none) no-repeat center;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.parralex{
+    background-image: url(https://dm2306files.storage.live.com/y4mVo9IfmhOp6ooQ3mJfxHomD-z6VRdlbTyiTQWeOjgSt5p6PtcCbvpUfhSYJF3qipdjjk-Ar4D-IqyExdYWtqaMXfZoN7XY7u7F_lBxWOycMs_ukyG8T8hi5F7BcIAzwpCEHM-iD7LO4_rqMegDu-gJ-gmmtD0vpho5nEwUWeWawxHRfXZvkFhuCIlk_-P0Lsm?width=1920&height=852&cropmode=none);
+    
+  /* Set a specific height */
+  max-height: 800px;
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* about */
+#profile{
+    background-image: url(https://dm2306files.storage.live.com/y4mWJHnO7nH2lyD7L_ABT6n3NAMd8-vv6OUA5J_QRwwkflflJilm5_h0vNLNSS5Pe5v9gPFUh_6K8Rc9jFcMKBr8kjtsDi3Qsef6tHFGgGGl7tAN311i17SOsil8lukHKCveaYmynhIlTkPkm5IZtEyUvp-EBE-UDbiO9kc39gwNKp27jV4wsBHbpXKckyXccXu?width=1920&height=709&cropmode=none);
+    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 800px;
+    min-height: 700px;
+}
+#about{
+    background-color: grey;
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: 800px;
+    min-height: 700px;
+}
+
+#education{
+    background-color: darksalmon;
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: 800px;
+    min-height: 700px;
+}
+#projects{
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: 800px;
+    min-height: 700px;
+}
+
+/* headings */
+h1{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 250px;
+ 
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    padding-right: 250px;
+}
+/* lists */
+li{
+    display: inline;
+    color: white;
+    font-size: 24px;
+    padding: 25px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 18.5px;
+}
+p.about_p{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 24px;
+}
+p.about_contact{
+    text-align: left;
+    font-size: 24px;
+}
+p.college{
+    text-align: center;
+    font-size: 36px;
+}
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+  /* images icons */
+  .fb,.in,.tt{
+      width: 45px;
+      height: 45px;
+      text-align: center;
+  }
+  .icons{
+      text-align: center;
+    }
+  
+  .container{
+      background-color: black;
+  }
+  nav{
+    background-color: black;
+    padding: 25px;
+    text-align: right;
+  }
+
+  a.call,a.mail{
+      font-size: 24px;
+  }
+  h2{
+      padding-left: 250px;
   }
